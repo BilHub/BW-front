@@ -1,0 +1,288 @@
+.vulnerability-logo {
+  color: black;
+}
+.services-logo {
+  //color: $blue;
+}
+//.actifs-logo {
+//  color: $red;
+//}
+.tickets-logo {
+  color: $black;
+  z-index: 50;
+}
+
+.drawer {
+
+}
+
+.top-drawer {
+
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+h3 {
+  color: #2F332D;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
+.menu-title {
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: white !important;
+}
+.sidebar, .navbar-brand-wrapper{
+  color: #1D1D1B;
+  background:  linear-gradient(to bottom, #1D1D1B , #2F332D 60%)!important;
+}
+.nav-link {
+  text-transform: uppercase;
+
+}
+.brand-logo{
+  margin-right: auto !important;
+  img {
+    height: 100px!important;
+  }
+  background: #1D1D1B !important;
+}
+//.navbar-menu-wrapper{
+//  background: transparent;
+//}
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+.text-secondary {
+  font-weight: 700;
+
+}
+.mdi-menu {
+  color: $black;
+}
+$mini-logo-dim:40px;
+.brand-logo-mini img{
+  width: auto !important;
+  height: auto !important;
+  min-height: $mini-logo-dim!important;
+  min-width: $mini-logo-dim!important;
+  max-height: $mini-logo-dim!important;
+  max-width: $mini-logo-dim!important;
+}
+
+.nav-item.active .menu-title {
+  color: $red !important;
+}
+.sidebar ul .nav-link{
+  .menu-arrow, .mdi{
+    color: $white !important;
+  }
+}
+.navbar-brand{
+  margin-right: auto !important;
+
+}
+.nav-item.hover-open {
+  .menu-title{
+    background:  #1D1D1B !important;
+
+  }
+  .sub-menu{
+    background:  linear-gradient(to bottom, #1D1D1B , #2F332D 60%)!important;
+
+  }
+}
+.navbar-brand img{
+  transform: rotateX(0);
+}
+.login2fa{
+  .page-header{
+    margin-bottom: 0;
+  }
+}
+
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  button {
+    margin-top: 20px;
+  }
+}
+#root {
+  width: 100vw;
+}
+.navbar-toggler{
+  width: auto;
+}
+
+input, textarea, select {
+  border-radius: 8px !important;
+  border: 1px solid $black !important;
+  color: $black !important;
+  font-family: Roboto, sans-serif !important;
+  font-style: normal !important;
+  &:focus{
+    border: 1px solid $red !important;
+  }
+  :hover {
+    background: none !important;
+  }
+  ::-webkit-input-placeholder { /* Edge */
+    text-transform: capitalize;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    text-transform: capitalize;
+  }
+
+  ::placeholder {
+    text-transform: capitalize;
+  }
+
+}
+select {
+  text-align: left !important;
+  &:focus{
+    border: 1px solid $red !important;
+  }
+}
+textarea {
+  min-width: 100% !important;
+  padding: 0.875rem 1.375rem
+}
+
+a {
+  color: $red;
+  text-transform: uppercase;
+  font-weight: 400;
+  :hover {
+    color: $white-smoke;
+  }
+}
+
+label::first-letter {
+
+  text-transform: capitalize;
+
+}
+
+button {
+  text-transform: uppercase;
+}
+.border-0 {
+  border: none !important;
+  border: 0 !important;
+  &:focus{
+    border: 0 !important;
+    border: none !important;
+
+  }
+}
+.navbar-nav-right .mdi {
+  color: black;
+}
+.badge-critique, .badge-important, .badge-majeur, .badge-mineur {
+  color: white;
+}
+
+.badge-critique {
+  background: $red;
+  width: 85px;
+  text-align: center;
+}
+.badge-majeur {
+  background: $orange;
+  width: 85px;
+  text-align: center;
+}
+.badge-important {
+  background: $black;
+  width: 85px;
+  text-align: center;
+}
+.badge-mineur {
+  background: $white-smoke;
+  width: 85px;
+  text-align: center;
+}
+
+.badge {
+  //text-transform: uppercase ;
+}
+
+.visible-overflow{
+  max-width: none !important;
+  overflow: visible !important;
+}
+
+footer a{
+  color: $red !important;
+}
+.filter.text-filter.form-control, .filter.select-filter.form-control {
+  width: 150px;
+  padding: 7px 7px!important;
+  margin-top: 7px;
+  height: auto;
+}
+.breadcrumb-item {
+  text-transform: uppercase;
+
+}
+.timeline-horizontal-cardstyles__Circle-sc-18iuiou-3:after{
+  background: #F04505 !important;
+}
+
+.timeline-horizontal-cardstyles__Circle-sc-18iuiou-3, .timeline-controlstyles__TimelineNavButton-sc-1apb8f9-2 {
+  background: #2F332D !important;
+
+}
+.timeline-verticalstyles__VerticalCircleWrapper-sc-1427v1d-2:after {
+    background: #2F332D !important;
+}
+.card-sub-title{
+  color: #2F332D !important;
+}
+.card-sub-title{
+  color: #2F332D !important;
+}
+th.sortable, th {
+  vertical-align: top !important;
+}
+#file-attachment{
+  display: none;
+}
+
+.file-attachment-label {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px !important;
+  cursor: pointer;
+  display: inline-block;
+  &:hover {
+    border: 1px solid var(--red);
+  }
+  .filename{
+    margin-top: 7px;
+    display: inline-block;
+  }
+}
+.contact-textarea{
+  height: 110px !important;
+}
+.nav-profile .account-circle {
+  width: 47px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #E20613, #F04505);
+  border-radius: 50%;
+}
+.nav-profile .mdi {
+  font-size: 35px;
+}
